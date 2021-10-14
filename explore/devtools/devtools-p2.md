@@ -1,0 +1,2 @@
+1. The bug was that num1 and num2 were being treated as strings meaning they weren't added but rather appended to each other.
+2. I would fix it by forcing/typecasting them into numbers before they are added together so they are "added" properly, and at that point it doesn't really matter if result takes them in as strings since they already have the right value.
